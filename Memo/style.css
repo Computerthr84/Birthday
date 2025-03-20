@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&family=Permanent+Marker&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@font-face {
+    font-family: rg;
+    src: url(./front/JetBrainsSans-Regular.woff2);
+}
+@font-face {
+    font-family: sm;
+    src: url(./front/JetBrainsSans-SemiBold.woff2);
+}
+@font-face {
+    font-family: br;
+    src: url(./front/JetBrainsSans[wght].woff2);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background-color: black; */
+    color: #e5fcff;
+    background-color: #000000;
+}
+a{
+    text-decoration: none;
+    font-family: "Dancing Script", serif;
+    color: #F31199;
+}
+
+.main-app{
+    position: relative;
+    width: 100%;
+ }
+.page-1{
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    font-family: rb;
+}
+.clock {
+    color: #F31199;
+    font-size: 20px;
+    font-family: br;
+    font-weight: 800;
+    letter-spacing: 7px;
+}
+.page-img{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: absolute;
+    position: relative;
+    z-index: 0;
+}
+.page-img img:nth-child(1){
+    height: 50vh;
+    position: absolute;
+    z-index: 1;
+    right: 1vh;
+    opacity: 0.8;
+    border-radius: 3vh 2vh 2vh 3vh;
+    overflow: hidden;
+}
+.page-img img:nth-child(2){
+    z-index: 0;
+    border-radius: 3vh 0 0 3vh;
+    overflow: hidden;
+    width: 90%;
+}
+.page-text{
+    position: absolute;
+    bottom: 15vh;
+    position: relative;
+    overflow: hidden;
+}
+.page-text h1{
+    font-size: 8vh;
+    position: relative;
+    overflow: hidden;
+    font-family: br;
+}
+.page-text h1:nth-child(1){
+    color: #00a8e8;
+}
+.page-text h1:nth-child(2){
+    color: #ffb17a;
+}
+.page-text p{
+    font-size: 2vh;
+    color: #00a8e8;
+}
+.page-text a{
+    position: absolute;
+    font-size: 2vh;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 1vh 2vh;
+    border-radius: 1vh;
+    right: 5vh;
+    bottom: -7vh;
+    overflow: hidden;
+}
+
+.page-text p{
+    color: #ffb17a;
+}
+
+.page-2{
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    gap: 4vh;
+}
+
+.swiper {
+    width: 80vw;
+    height: 70vh;
+  }
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+}
+.swiper-slide img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* progress bar */
+
+
+
+/* page 3 */
+.page-3{
+    min-height: 300vh;
+    overflow: hidden;
+}
+.wrapper {
+	margin-top: 10px;
+	margin-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1vh;
+}
+.wrapper-left{
+    height: 100vh;
+    width: 50%;
+}
+.wrapper-right{
+    height: 100vh;
+    width: 50%;
+}
+    
+.wrapper img {
+    width: 100%;
+    height: auto;
+}
+.wrapper h1{
+    height: 40vh;
+    font-size: 3vh;
+}
+
+/* page 4 */
+.page-4{
+    min-height: 90vh;
+    width: 100%;
+    overflow: hidden;
+}
+.page-4 img{
+    margin-top: 10vh;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.page-4 h2{
+    font-size: 4vh;
+    width: 100%;
+    text-align: start;
+    line-height: 4vh;
+    margin-top: 2vh;
+    font-family: br;
+    color: #F31199;
+}
+
+.page-4 p{
+    font-size: 3.5vh;
+    width: 100%;
+    text-align: start;
+    line-height: 5vh;
+    margin-top: 2vh;
+    overflow: hidden;
+    color: #e5fcff;
+    font-weight: 700;
+    font-family: sm;
+}
+
+
+footer{
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+footer h1{
+    font-size: 2vh;
+}
+
+footer a{
+    font-size: 4vh;
+    margin-left: 1vh;
+    text-decoration: none;
+}
+
+
+
